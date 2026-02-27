@@ -1,0 +1,6269 @@
+﻿iframe {
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    /*display: none;*/
+}
+
+.home_wrapper {
+    position: static !important;
+    height: auto !important;
+}
+
+header.header {
+    position: relative;
+ 
+}
+.fa {
+    /*padding: 2px;
+    font-size: 3px;
+    width: 3px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+    display:inline-flex;*/
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-facebook {
+    /*background: #3B5998;
+    color: white;*/
+}
+
+
+    header.header .logo-search-bar {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    @media(min-width:320px) and (max-width:767px)
+    {
+        header.header .logo-search-bar img{
+        margin-left:36%;
+        }
+    }
+
+/*--------------Search Bar--------------*/
+.searchbox {
+    background-color: #808285;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.search_box {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    height: 30px;
+}
+
+.search_button {
+    border: none;
+    color: #808285;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    height: 30px;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+    .search_button:hover {
+        border: none;
+        background: -moz-linear-gradient(top, #808285 0%, #ccc 51%, #808285 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #808285 0%,#ccc 51%,#808285 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #808285 0%,#ccc 51%,#808285 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        height: 30px;
+        cursor: pointer;
+    }
+
+/*------------------------------------*/
+
+header.header nav {
+    position: relative;
+    border-bottom: 8px solid #F26522;
+}
+.fa {
+   
+    /*text-align: center;
+    text-decoration: none;*/
+    
+}
+
+.fa-youtube {
+    /*background: #f26522;
+    color: white;*/
+}
+
+.fa-instagram {
+    /*background: #f26522;
+    color: white;*/
+}
+
+
+
+.fa-facebook {
+    /*background: #f26522;
+    color: white;*/
+}
+
+.fa-linkedin {
+    /*background: #f26522;
+    color: white;*/
+}
+
+.fa-twitter {
+    /*background: #f26522;
+    color: white;*/
+}
+
+    header.header nav > ul.bop-menu {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+        header.header nav > ul.bop-menu > li {
+            float: left;
+            background-color: #808285;
+            display: block;
+            position: relative;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            -moz-transition: all 0.3s ease-out;
+            -o-transition: all 0.3s ease-out;
+            -webkit-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+            transition: border 500ms ease-out;
+            -webkit-transition: border 500ms ease-out;
+            -moz-transition: border 500ms ease-out;
+            -o-transition: border 500ms ease-out;
+            text-decoration: none;
+          
+            padding: 2px 5px;
+
+            /* Multiple box shadows to achieve the glass effect */
+            box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.85), 0 0 7px 0px rgba(0, 0, 0, 0.25), inset 0 0 40px 5px rgba(0, 0, 0, 0.25);
+        }
+
+            header.header nav > ul.bop-menu > li:hover {
+                -moz-box-shadow: 0 0 10px #F26522;
+                -webkit-box-shadow: 0 0 10px #F26522;
+                box-shadow: 0 0 10px #F26522;
+            }
+
+            header.header nav > ul.bop-menu > li.last {
+                display: none;
+            }
+
+            header.header nav > ul.bop-menu > li > a {
+                color: #fff;
+                font-size: 14px;
+                font-weight: 500;
+                font-family: 'Century Gothic';
+                display: block;
+                position: relative;
+                -moz-transition: all 0.3s ease-out;
+                -o-transition: all 0.3s ease-out;
+                -webkit-transition: all 0.3s ease-out;
+                -ms-transition: all 0.3s ease-out;
+                transition: all 0.3s ease-out;
+                transition: border 500ms ease-out;
+                -webkit-transition: border 500ms ease-out;
+                -moz-transition: border 500ms ease-out;
+                -o-transition: border 500ms ease-out;
+                text-decoration: none;
+                margin: 0px 10px;
+                padding: 2px 5px;
+            }
+
+            header.header nav > ul.bop-menu > li.first {
+                border-left: none;
+            }
+
+            header.header nav > ul.bop-menu > li.last {
+                border-left: none;
+            }
+
+                header.header nav > ul.bop-menu > li.last > a {
+                    background: #58595B !important;
+                    color: #FFF !important;
+                    padding: 16px 17px !important;
+                    padding-bottom: 14px !important;
+                    margin-right: 0px !important;
+                    vertical-align: middle !important;
+                    font-size: 14px !important;
+                    opacity: 0.03 !important;
+                    filter: alpha(opacity=20) !important;
+                    cursor: default !important;
+                    text-decoration: none !important;
+                    border: none !important;
+                }
+
+
+        header.header nav > ul.bop-menu .bop-sub-menu {
+            position: absolute;
+            display: none;
+            top: 100%;
+            left: 0;
+            z-index: 99;
+            background-color: #808285;
+            padding: 1em;
+            padding-bottom: 0px;
+            box-sizing: border-box;
+            margin-top: 0px;
+            -webkit-box-shadow: rgba(192, 192, 192, 0.4) 0px 3px 3px;
+            -moz-box-shadow: rgba(192, 192, 192, 0.4) 0px 3px 3px;
+            box-shadow: rgba(192, 192, 192, 0.4) 0px 3px 3px;
+            width: 370%;
+        }
+
+            header.header nav > ul.bop-menu .bop-sub-menu .menu {
+                width: 260%;
+            }
+
+            header.header nav > ul.bop-menu .bop-sub-menu ul {
+                margin: 0;
+                padding: 0;
+                padding-bottom: 20px;
+            }
+
+                header.header nav > ul.bop-menu .bop-sub-menu ul li {
+                    display: block;
+                }
+
+                    header.header nav > ul.bop-menu .bop-sub-menu ul li a {
+                        color: #fff;
+                        font-family: 'Century Gothic';
+                        font-size: 12px;
+                        font-weight: 500;
+                        padding: 3px 0px;
+                        display: block;
+                        position: relative;
+                        padding-left: 17px;
+                    }
+
+                        header.header nav > ul.bop-menu .bop-sub-menu ul li a:after {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            margin: auto;
+                            margin-left: 2px;
+                            margin-top: 2px;
+                            width: 9px;
+                            height: 9px;
+                            content: "»";
+                        }
+
+                        header.header nav > ul.bop-menu .bop-sub-menu ul li a:hover {
+                            text-decoration: none;
+                            color: #F26522;
+                        }
+
+ /*------------------Modal-------------------------------*/
+
+.modal-header {
+    padding: 8px 14px;
+    margin: 0;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    background-color: #808285;
+ 
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.85), 0 0 7px 0px rgba(0, 0, 0, 0.25), inset 0 0 40px 5px rgba(0, 0, 0, 0.25);
+}
+
+    .close {
+        color: #fff;
+        opacity:1;
+    }
+     .close:hover {
+        color: #fff;
+        opacity:0.5;
+    }
+
+.modal-body {
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    .modal-body a {
+        color: #F26522;
+        padding: 10px;
+    }
+/*-------------Left-Boxes-------------------------------------------*/
+
+
+.box-style {
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    padding: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 0px;
+
+    background: #595959; /* Old browsers */
+    background: -moz-linear-gradient(top, #595959 0%, #666666 51%, #a6a6a6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #595959 0%,#666666 51%,#a6a6a6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #595959 0%,#666666 51%,#a6a6a6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#a6a6a6',GradientType=0 ); /* IE6-9 */
+}
+
+.verticle_space {
+    margin-bottom: 5px;
+}
+
+.box-style {
+    height: 150px;
+}
+
+    .box-style h5 {
+        padding: 0px;
+        margin: 0px;
+        background: -webkit-linear-gradient(#F26522,#F26522,#F26522);
+        background: -o-linear-gradient(#F26522,#F26522,#F26522);
+        background: -moz-linear-gradient(#F26522,#F26522,#F26522);
+        background: linear-gradient(#F26522,#F26522,#F26522);
+        color: #fff;
+        text-align: center;
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        padding: 2px 0;
+        border-top-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+        .box-style h5 a {
+            color: #fff;
+        }
+.Add_Space {
+    padding-right: 3px;
+}
+
+.div_alignment {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+.inputs {
+    background:#f2f6f8;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    color: #222;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: none;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Century Gothic';
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+.button-input {
+    width: auto;
+    border: 0px solid #F26522;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    letter-spacing: .1em;
+    color: #222;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    border-radius: 2px;
+}
+
+    .button-input:hover {
+        color: #F26522;
+    }
+
+.glyphicon-color {
+    color: #F26522;
+}
+
+.panel-padding-style {
+    background-color: transparent;
+    padding: 0px;
+    margin-bottom: 1px;
+    border: none;
+}
+
+.products {
+    background-color: transparent;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: -60px;
+}
+
+    .products ul {
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        padding: 0px 0px;
+    }
+
+.news-item {
+    list-style: none;
+    height: 25px;
+}
+
+    .news-item a {
+        color: #fff;
+    }
+
+        .news-item a:hover {
+            color: #F26522;
+        }
+
+.div_products_scroll {
+    height: 35px;
+    border: none;
+}
+
+
+/*---------------------Icons-------------------------------*/
+
+
+    .thumbnail_shade {
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+}
+
+    .thumbnail_shade img {
+    width:60px;
+    height:60px;
+    }
+    .thumbnail_shade img:hover {
+        background-color: #fff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 2px 4px 0 #222, 0 2px 5px 0 #222, 0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+        -moz-box-shadow: 0 2px 4px 0 #222, 0 2px 5px 0 #222, 0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+        box-shadow: 0 2px 4px 0 #222, 0 2px 5px 0 #222, 0 -2px 6px 1px rgba(199, 199, 199, 0.55) inset, 0 2px 4px 2px rgba(255, 255, 255, 0.83) inset;
+    }
+
+    .thumbnail_shade a {
+        color: #222;
+        text-decoration: none;
+    }
+
+    .thumbnail_shade p {
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+.modal-header-products {
+    padding: 8px 14px;
+    margin: 0;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    background-color: #f26522;
+    border-bottom: 0px solid #ebebeb;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.products-matrix {
+    padding: 50px;
+    box-shadow: 0 10px 6px -6px #777;
+    width:50%;
+    float:left;
+}
+.products-matrix h1{
+ 
+    font-family: 'Century Gothic';
+    font-size: 40px;
+    font-weight: 700;
+    color:#fff;
+    
+   
+
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+}
+.products-matrix a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+.products-matrix a:focus{
+    color:#fff;
+    text-decoration:none;
+}
+.matrix1 {
+    background-color:#6b0f7c;
+
+}
+.matrix2 {
+    background-color:#2e8c49;
+}
+.matrix3 {
+    background-color:#e87719;
+}
+.matrix4 {
+    background-color:#01aef0;
+}
+.matrix5 {
+    background-color: #de3716;
+}
+.matrix6 {
+    background-color: #7b7979;
+}
+.product_heading{
+    background:#F26522;
+}
+
+  .box-style h6 {
+            padding: 0px;
+            margin: 0px;
+            color:#fff;   
+
+           text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+            text-align: center;
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            font-weight: 500;
+            padding: 4px 0;
+            box-shadow: 0 10px 6px -6px #777;
+        }
+
+.news-item h6.product_heading a:hover {color: #fff;}
+.news-item h6.matrix1 a:hover {color: #fff;}
+.news-item h6.matrix2 a:hover {color: #fff;}
+.news-item h6.matrix3 a:hover {color: #fff;}
+.news-item h6.matrix4 a:hover {color: #fff;}
+.news-item h6.matrix5 a:hover {
+    color: #fff;
+}
+.news-item h6.matrix6 a:hover {
+    color: #fff;
+}
+
+
+@media (max-width:359px) {
+      .products-matrix {
+    padding: 0px;
+    box-shadow: 0 3px 2px -2px #777;
+    width:50%;
+    float:left;
+    padding:5px;
+}
+.products-matrix h1{
+ 
+    font-family: 'Century Gothic';
+    font-size: 12px;
+    font-weight: 500;
+    color:#fff;
+    
+   
+
+text-shadow: 0px 2px 1px rgba(0,0,0,0.4),
+             0px 4px 5px rgba(0,0,0,0.1),
+             0px 6px 6px rgba(0,0,0,0.1);
+
+}
+.products-matrix a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+.products-matrix a:focus{
+    color:#fff;
+    text-decoration:none;
+}
+    .verticle_space {
+        margin-bottom: 5px;
+    }
+
+    .box-style {
+        height: 110px;
+    }
+                .div_alignment select
+        {
+            background:#f2f6f8;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 3px;
+        margin-right: 10px;
+        width: 100%;
+
+        }
+
+            .div_alignment select option
+        {
+            background:#f2f6f8;
+       
+         color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        width: auto;
+
+        }
+
+}
+
+@media (min-width:360px) and (max-width:767px) {
+    .products-matrix {
+    padding: 0px;
+    box-shadow: 0 3px 2px -2px #777;
+    width:50%;
+    float:left;
+}
+.products-matrix h1{
+ 
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: 500;
+    color:#fff;
+    
+   
+
+text-shadow: 0px 2px 1px rgba(0,0,0,0.4),
+             0px 4px 8px rgba(0,0,0,0.1),
+             0px 6px 10px rgba(0,0,0,0.1);
+
+}
+.products-matrix a:hover{
+    color:#fff;
+    text-decoration:none;
+}
+.products-matrix a:focus{
+    color:#fff;
+    text-decoration:none;
+}
+
+    .verticle_space {
+        margin-bottom: 5px;
+    }
+
+    .box-style {
+        height: 110px;
+    }
+                .div_alignment select
+        {
+            background:#f2f6f8;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 3px;
+        margin-right: 10px;
+        width: 100%;
+
+        }
+
+            .div_alignment select option
+        {
+            background:#f2f6f8;
+       
+         color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        width: auto;
+
+        }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ .thumbnail_shade p {
+        font-family: 'Century Gothic';
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0px;
+        margin: 0px;
+    }
+
+  
+    .products-matrix {
+    padding: 10px;
+}
+.products-matrix h1{
+ 
+    font-family: 'Century Gothic';
+    font-size: 26px;
+    font-weight: 500;
+    color:#fff;
+}
+    .verticle_space {
+        margin-bottom: 5px;
+    }
+
+    .box-style {
+        height: 110px;
+    }
+
+        .box-style h5 {
+            padding: 0px;
+            margin: 0px;
+            background: -webkit-linear-gradient(#F26522,#F26522,#F26522);
+            background: -o-linear-gradient(#F26522,#F26522,#F26522);
+            background: -moz-linear-gradient(#F26522,#F26522,#F26522);
+            background: linear-gradient(#F26522,#F26522,#F26522);
+            color: #fff;
+            text-align: center;
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            font-weight: 500;
+            padding: 2px 0;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+    .Add_Space {
+        padding-right: 3px;
+    }
+
+    .div_alignment {
+        text-align: center;
+        padding-top: 5px;
+    }
+             .div_alignment select
+        {
+            background:#f2f6f8;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 3px;
+        margin-right: 10px;
+        width: 100%;
+
+        }
+
+            .div_alignment select option
+        {
+            background:#f2f6f8;
+       
+         color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        width: auto;
+
+        }
+            .inputs {
+    color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 1px;
+        width: 40%;
+}
+
+    .button-input {
+        width: auto;
+        border: 0px solid #F26522;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #222;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        border-radius: 2px;
+    }
+
+        .button-input:hover {
+            color: #F26522;
+        }
+
+    .glyphicon-color {
+        color: #F26522;
+    }
+
+    .panel-padding-style {
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 1px;
+        border: none;
+    }
+
+    .products {
+        background-color: transparent;
+        padding: 0px;
+        list-style: none;
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: -60px;
+    }
+
+        .products ul {
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            color: #fff;
+            font-weight: 500;
+            text-align: center;
+            padding: 0px 0px;
+        }
+
+    .news-item {
+        list-style: none;
+        height: 25px;
+    }
+
+        .news-item a {
+            color: #fff;
+        }
+
+            .news-item a:hover {
+                color: #F26522;
+            }
+
+    .div_products_scroll {
+        height: 35px;
+        border: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 999px) {
+    .box-style h6 {
+            padding: 0px;
+            margin: 0px;
+            color:#fff;   
+
+            text-align: center;
+            font-family: 'Century Gothic';
+            font-size: 12px;
+            font-weight: 500;
+            padding: 2px 0;
+            box-shadow: 0 10px 6px -6px #777;
+        }
+    .products-matrix {
+    padding: 10px;
+}
+.products-matrix h1{
+ 
+    font-family: 'Century Gothic';
+    font-size: 26px;
+    font-weight: 500;
+    color:#fff;
+}
+    .verticle_space {
+        margin-bottom: 1px;
+    }
+
+    .box-style {
+        height: 88px;
+    }
+
+          .box-style h5 {
+            padding: 0px;
+            margin: 0px;
+            background: -webkit-linear-gradient(#F26522,#F26522,#F26522);
+            background: -o-linear-gradient(#F26522,#F26522,#F26522);
+            background: -moz-linear-gradient(#F26522,#F26522,#F26522);
+            background: linear-gradient(#F26522,#F26522,#F26522);
+            color: #fff;
+            text-align: center;
+            font-family: 'Century Gothic';
+            font-size: 11px;
+            font-weight: 600;
+            padding: 1px 0;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+
+    .Add_Space {
+        padding-right: 2px;
+    }
+
+    .div_alignment {
+        text-align: center;
+        padding-top: 2px;
+    }
+         .div_alignment select
+        {
+            background:#f2f6f8;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        color: #222;
+        font-size: 10px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 1px;
+        width: 100%;
+
+        }
+
+            .div_alignment select option
+        {
+            background:#f2f6f8;
+       
+         color: #222;
+        font-size: 10px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        width: auto;
+
+        }
+.inputs {
+    background:#f2f6f8;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+  color: #222;
+        font-size: 10px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 1px;
+    width: 100%;
+}
+    .button-input {
+        width: auto;
+        border: 0px solid #F26522;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #222;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        border-radius: 2px;
+    }
+
+        .button-input:hover {
+            color: #F26522;
+        }
+
+    .glyphicon-color {
+        color: #F26522;
+    }
+
+    .panel-padding-style {
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 1px;
+        border: none;
+    }
+
+    .products {
+        background-color: transparent;
+        padding: 0px;
+        list-style: none;
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: -45px;
+    }
+
+        .products ul {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            padding: 0px 0px;
+        }
+
+    .news-item {
+        list-style: none;
+        height: 15px;
+    }
+
+        .news-item a {
+            color: #fff;
+        }
+
+            .news-item a:hover {
+                color: #F26522;
+            }
+
+    .div_products_scroll {
+        height: 20px;
+        border: none;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1279px) {
+    .products-matrix {
+    padding: 10px;
+}
+.products-matrix h1{
+ 
+    font-family: 'Century Gothic';
+    font-size: 26px;
+    font-weight: 500;
+    color:#fff;
+}
+    .verticle_space {
+        margin-bottom: 1px;
+    }
+
+    .box-style {
+        height: 88px;
+    }
+
+        .box-style h5 {
+            padding: 0px;
+            margin: 0px;
+            background: -webkit-linear-gradient(#F26522,#F26522,#F26522);
+            background: -o-linear-gradient(#F26522,#F26522,#F26522);
+            background: -moz-linear-gradient(#F26522,#F26522,#F26522);
+            background: linear-gradient(#F26522,#F26522,#F26522);
+            color: #fff;
+            text-align: center;
+            font-family: 'Century Gothic';
+            font-size: 11px;
+            font-weight: 600;
+            padding: 0px 0;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+    .Add_Space {
+        padding-right: 0px;
+    }
+
+    .div_alignment {
+        text-align: center;
+        padding-top: 2px;
+    }
+     .div_alignment select
+        {
+           background:#f2f6f8;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        color: #222;
+        font-size: 10px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 1px;
+        width: 100%;
+
+        }
+
+            .div_alignment select option
+        {
+            background:#f2f6f8;
+       
+         color: #222;
+        font-size: 10px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        width: auto;
+
+        }
+        .inputs {
+    background:#f2f6f8;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+   color: #222;
+        font-size: 10px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 1px;
+    width: 100%;
+}
+
+    .button-input {
+        width: auto;
+        border: 0px solid #F26522;
+        cursor: pointer;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #222;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        border-radius: 2px;
+    }
+
+        .button-input:hover {
+            color: #F26522;
+        }
+
+    .glyphicon-color {
+        color: #F26522;
+    }
+
+    .panel-padding-style {
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 1px;
+        border: none;
+    }
+
+    .products {
+        background-color: transparent;
+        padding: 0px;
+        list-style: none;
+        font-family: 'Century Gothic';
+        font-size: 11px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: -50px;
+    }
+
+        .products ul {
+            font-family: 'Century Gothic';
+            font-size: 11px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            padding: 0px 0px;
+        }
+
+    .news-item {
+        list-style: none;
+        height: 27px;
+    }
+
+        .news-item a {
+            color: #fff;
+        }
+
+            .news-item a:hover {
+                color: #F26522;
+            }
+
+    .div_products_scroll {
+        height: 27px;
+        border: none;
+    }
+
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+    .verticle_space {
+        margin-bottom: 1px;
+    }
+
+    .box-style {
+        height: 110px;
+    }
+
+        .box-style h5 {
+            padding: 0px;
+            margin: 0px;
+            background: -webkit-linear-gradient(#F26522,#F26522,#F26522);
+            background: -o-linear-gradient(#F26522,#F26522,#F26522);
+            background: -moz-linear-gradient(#F26522,#F26522,#F26522);
+            background: linear-gradient(#F26522,#F26522,#F26522);
+            color: #fff;
+            text-align: center;
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            font-weight: 500;
+            padding: 2px 0;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+    .Add_Space {
+        padding-right: 3px;
+    }
+
+    .div_alignment {
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .div_alignment select
+        {
+             background:#f2f6f8;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 3px;
+        width: 100%;
+
+        }
+
+            .div_alignment select option
+        {
+            background:#f2f6f8;
+       
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        width: auto;
+
+        }
+
+
+
+    .button-input {
+        width: auto;
+        border: 0px solid #F26522;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #222;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        border-radius: 2px;
+    }
+
+        .button-input:hover {
+            color: #F26522;
+        }
+
+    .glyphicon-color {
+        color: #F26522;
+    }
+
+    .panel-padding-style {
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 1px;
+        border: none;
+    }
+
+    .products {
+        background-color: transparent;
+        padding: 0px;
+        list-style: none;
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: -60px;
+    }
+
+        .products ul {
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            color: #fff;
+            font-weight: 500;
+            text-align: center;
+            padding: 0px 0px;
+        }
+
+    .news-item {
+        list-style: none;
+        height: 30px;
+    }
+
+        .news-item a {
+            color: #fff;
+        }
+
+            .news-item a:hover {
+                color: #F26522;
+            }
+
+    .div_products_scroll {
+        height: 35px;
+        border: none;
+    }
+}
+
+@media (min-width: 1360px) and (max-width: 1439px) {
+    .verticle_space {
+        margin-bottom: 1px;
+    }
+
+    .box-style {
+        height: 110px;
+    }
+
+        .box-style h5 {
+            padding: 0px;
+            margin: 0px;
+            background: -webkit-linear-gradient(#F26522,#F26522,#F26522);
+            background: -o-linear-gradient(#F26522,#F26522,#F26522);
+            background: -moz-linear-gradient(#F26522,#F26522,#F26522);
+            background: linear-gradient(#F26522,#F26522,#F26522);
+            color: #fff;
+            text-align: center;
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            font-weight: 500;
+            padding: 4px 0;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+
+    .Add_Space {
+        padding-right: 3px;
+    }
+
+    .div_alignment {
+        text-align: center;
+        padding-top: 5px;
+    }
+
+            .div_alignment select
+        {
+            background:#f2f6f8;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 3px;
+        width: 100%;
+
+        }
+
+            .div_alignment select option
+        {
+            background:#f2f6f8;
+       
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        width: auto;
+
+        }
+
+
+    .button-input {
+        width: auto;
+        border: 0px solid #F26522;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #222;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        border-radius: 2px;
+    }
+
+        .button-input:hover {
+            color: #F26522;
+        }
+
+    .glyphicon-color {
+        color: #F26522;
+    }
+
+    .panel-padding-style {
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 1px;
+        border: none;
+    }
+
+    .products {
+        background-color: transparent;
+        padding: 0px;
+        list-style: none;
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: -60px;
+    }
+
+        .products ul {
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            color: #fff;
+            font-weight: 500;
+            text-align: center;
+            padding: 0px 0px;
+        }
+
+    .news-item {
+        list-style: none;
+        height: 30px;
+    }
+
+        .news-item a {
+            color: #fff;
+        }
+
+            .news-item a:hover {
+                color: #F26522;
+            }
+           
+
+    .div_products_scroll {
+        height: 35px;
+        border: none;
+    }
+
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .verticle_space {
+        margin-bottom: 1px;
+    }
+
+    .box-style {
+        height: 110px;
+    }
+
+        .box-style h5 {
+            padding: 0px;
+            margin: 0px;
+            background: -webkit-linear-gradient(#F26522,#F26522,#F26522);
+            background: -o-linear-gradient(#F26522,#F26522,#F26522);
+            background: -moz-linear-gradient(#F26522,#F26522,#F26522);
+            background: linear-gradient(#F26522,#F26522,#F26522);
+            color: #fff;
+            text-align: center;
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            font-weight: 500;
+            padding: 4px 0;
+            border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+       
+
+    .Add_Space {
+        padding-right: 3px;
+    }
+
+    .div_alignment {
+        text-align: center;
+        padding-top: 5px;
+    }
+
+        .div_alignment select
+        {
+            background:#f2f6f8;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        margin-bottom: 3px;
+        width: 100%;
+
+        }
+
+            .div_alignment select option
+        {
+            background:#f2f6f8;
+       
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 500;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        width: auto;
+
+        }
+
+    .button-input {
+        width: auto;
+        border: 0px solid #F26522;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #222;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        border-radius: 2px;
+
+    }
+
+        .button-input:hover {
+            color: #F26522;
+        }
+
+        
+    .glyphicon-color {
+        color: #F26522;
+    }
+
+    .panel-padding-style {
+        background-color: transparent;
+        padding: 0px;
+        margin-bottom: 1px;
+        border: none;
+    }
+
+    .products {
+        background-color: transparent;
+        padding: 0px;
+        list-style: none;
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: -60px;
+    }
+
+        .products ul {
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            color: #fff;
+            font-weight: 500;
+            text-align: center;
+            padding: 0px 0px;
+        }
+
+    .news-item {
+        list-style: none;
+        height: 30px;
+    }
+
+        .news-item a {
+            color: #fff;
+        }
+
+            .news-item a:hover {
+                color: #F26522;
+            }
+
+    .div_products_scroll {
+        height: 35px;
+        border: none;
+    }
+}
+.ebanking .modal-content {
+    box-shadow:none;
+    border-bottom-left-radius:0;
+      border-bottom-right-radius:0;
+      border:none;
+}
+
+
+.ebanking .modal-header-ebanking {
+    padding: 8px 14px;
+    margin: 0;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    background-color: #f26522;
+    border-bottom: 0px solid #ebebeb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ebanking .display_msg_ebanking{
+    padding-top:30px;
+}
+
+.ebanking .display_buttons_ebanking {
+    padding-left:115px;
+}
+
+.ebanking .btn-register
+{
+    border: none;
+    padding-top:5px;
+    margin-right:10px;
+    float:left;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    height: 30px;
+    width:80px;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius:4px;
+}
+    .ebanking .btn-register a {
+        color: #222;
+    }
+  .ebanking .btn-register:hover {
+       border: none;
+        background: -moz-linear-gradient(top, #808285 0%, #ccc 51%, #808285 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #808285 0%,#ccc 51%,#808285 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #808285 0%,#ccc 51%,#808285 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        height: 30px;
+        cursor: pointer;
+    }
+      .ebanking .btn-register a:hover {
+        color: #fff;
+        text-decoration:none;
+    }
+
+     @media(min-width:768px)
+     {
+.ebanking .modal-dialog {
+
+background-color:#fff;
+border-radius:5px;
+width:400px;
+height:200px;
+}
+}
+@media(min-width:320px) and (max-width:767px)
+     {
+.ebanking .modal-dialog {
+
+background-color:#fff;
+border-radius:5px;
+width:300px;
+height:250px;
+}
+.ebanking .display_buttons_ebanking {
+    padding-left:60px;
+}
+}
+
+/*------------------------banner slideshow-------------------------*/
+
+section.banner {
+    margin-bottom: 5px;
+}
+
+section.products_services {
+    margin-bottom: 5px;
+}
+
+section.banner ul {
+    list-style: none;
+    padding: 0px;
+}
+
+    section.banner ul li {
+        margin: 0;
+        padding: 0;
+    }
+
+.bx-wrapper .bx-viewport {
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+    position: relative;
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+}
+
+.bx-loading {
+    min-height: 50px;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+section.banner .bx-wrapper .bx-pager {
+    text-align: center;
+}
+
+section.banner .bx-controls-direction {
+    display: none;
+}
+
+section.banner .bx-wrapper .bx-pager, section.banner .bx-wrapper .bx-controls-auto {
+    bottom: 5px;
+    width: auto;
+    right: 45px;
+}
+
+    section.banner .bx-wrapper .bx-pager .bx-pager-item, section.banner .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+        display: inline-block;
+        *zoom: 1;
+        *display: inline;
+    }
+
+    section.banner .bx-wrapper .bx-pager.bx-default-pager a {
+        background: #ffffff;
+        text-indent: -9999px;
+        display: block;
+        width: 13px;
+        height: 13px;
+        margin-left: 4px;
+        outline: 0;
+        border: 1px solid #545351;
+    }
+
+        section.banner .bx-wrapper .bx-pager.bx-default-pager a:hover, section.banner .bx-wrapper .bx-pager.bx-default-pager a.active {
+            background: #F26522;
+        }
+
+/*-----------------------------------------------------------------*/
+
+/*------------Latest News-----------------------------------------*/
+section.news-scroll {
+}
+section.news-scroll .row .col-md-10,.col-sm-10{
+    /*padding-top:0px;*/
+}
+
+
+.latest_news_heading {
+    height: 24px;
+    overflow: hidden;
+    position: relative;
+    background-color: #F26522;
+    background: -webkit-linear-gradient(#F26522,#F26522,#F26522);
+    background: -o-linear-gradient(#F26522,#F26522,#F26522);
+    background: -moz-linear-gradient(#F26522,#F26522,#F26522);
+    background: linear-gradient(#F26522,#F26522,#F26522);
+}
+
+    .latest_news_heading p {
+        height: 100%;
+        margin: 0;
+        line-height: 24px;
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+    }
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.latest_news_scroll {
+    height: 24px;
+    overflow: hidden;
+    position: relative;
+    background: #595959; /* Old browsers */
+    background: -moz-linear-gradient(top, #595959 0%, #666666 51%, #a6a6a6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #595959 0%,#666666 51%,#a6a6a6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #595959 0%,#666666 51%,#a6a6a6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#a6a6a6',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+}
+
+
+/*---------------------------------------------------------*/
+
+/*--------E-Banking footer---------------------------------*/
+
+@media(min-width:320px) and (max-width:767px)
+{
+    footer .ebank-footerwrap
+   {
+          
+           margin-left:-10px;margin-right:-10px;background-color: #F26522;padding-top:5px;height:210px;
+   }
+}
+@media(min-width:768px)
+{
+       footer .ebank-footerwrap
+   {
+          
+           margin-left:-10px;margin-right:-10px;background-color: #F26522;padding-top:5px;height:30px;
+   }
+        
+}
+
+/*----------------------Footer-----------------------------*/
+@media(min-width:320px) and (max-width:767px)
+{
+    footer .footerwrap
+   {
+          
+           margin-left:-10px;margin-right:-10px;background-color: #F26522;padding-top:5px;height:200px;
+   }
+}
+@media(min-width:768px) and (max-width:1000px)
+{
+       footer .footerwrap
+   {
+          
+           margin-left:-10px;margin-right:-10px;background-color: #F26522;padding-top:5px;height:150px;
+   }
+        
+}
+     
+@media(min-width:999px)
+{
+       footer .footerwrap
+   {
+          
+           margin-left:-10px;margin-right:-10px;background-color: #F26522;padding-top:5px;height:30px;
+   }
+        
+}
+   footer .footerwrap p.UAN
+   {
+          font-family:'Century Gothic';
+          color:#fff;
+          font-size:14px;
+          font-weight:600;
+          text-align:center;
+           
+   }
+      footer .footerwrap a
+   {
+          font-family:'Century Gothic';
+          color:#fff;
+          font-size:14px;
+          font-weight:500;
+           
+   }
+            footer .footerwrap a:hover
+   {
+          color:#545351;
+          cursor:pointer;
+           
+   }
+
+           p.UAN
+   {
+          font-family:'Century Gothic';
+          color:#fff;
+          font-size:14px;
+          font-weight:600;
+          text-align:center;
+           
+   }
+
+            .dropdown-menu{
+        padding:4px;
+            background-color: #F26522;
+    }
+
+    .dropdown-menu li {
+         font-family:'Century Gothic';
+          color:#fff;
+          font-size:12px;
+           white-space:nowrap;
+    }
+        .dropdown-menu li a{
+         font-family:'Century Gothic';
+          color:#fff;
+          font-size:12px;
+          white-space:nowrap;
+    }
+        .dropdown-menu li a:hover{
+          color:#545351;
+    }
+
+
+
+.widget {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+    .widget h2 {
+        line-height: 20px;
+        font-size: 24px;
+        color: #F26522;
+        margin-bottom: 15px;
+        font-family: 'Century Gothic';
+    }
+
+    .widget h3 {
+        font-size: 20px;
+        color: #F26522;
+        margin-bottom: 15px;
+        font-family: 'Century Gothic';
+    }
+
+
+
+    /*-------------Complaints----------------*/
+    section.complaints{
+      margin-bottom:20px;
+    }
+    section.complaints h2{
+        font-size: 20px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    margin-left:-10px;
+    padding-left:0px;
+    }
+
+ section.complaints p {
+    
+    padding:8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    font-family:'Century Gothic';
+}
+
+ section.complaints p i{
+   padding:50px;
+   font-weight:600;
+}
+
+  section.complaints p a{
+   color: #F26522;
+}
+  section.complaints p a.docs{
+    margin-left:50px;
+}
+
+
+
+section.complaints .form-lbl-control {
+       font-size: 14px;
+        font-weight:500;
+        color: #222;
+        font-family: 'Century Gothic';
+   
+}
+section.complaints .form-control {
+        background:#f2f6f8;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        margin-bottom:10px;
+}
+section.complaints .form-control  label {
+
+        color:#222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+
+}
+
+
+section.complaints .btn_submit
+{
+    border: none;
+    float:right;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    height: 30px;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius:4px;
+}
+
+section.complaints .btn_submit:hover {
+         border: none;
+        background: -moz-linear-gradient(top, #808285 0%, #ccc 51%, #808285 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #808285 0%,#ccc 51%,#808285 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #808285 0%,#ccc 51%,#808285 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        height: 30px;
+        cursor: pointer;
+    }
+
+
+section.complaints .complaints-form-control-disable {
+
+      background:rgba(0, 0, 0, 0.25);
+   
+   color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        width:100%;
+         margin-bottom:10px;
+    }
+
+  section.complaints .complaints-form-control-error {
+
+       background:red;
+   
+   color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        width:100%;
+         margin-bottom:10px;
+
+    }
+
+section.complaints .complaint-form td {
+    padding:0;
+    border:none;
+}
+@media(max-width:999px)
+{
+section.complaints .complaint-form td label {
+    font-size: 9px;
+       
+        font-weight: 700;
+}
+}
+
+  
+
+   /*-------------Feedback----------------*/
+    section.feedback{
+
+    }
+
+        section.feedback h4{
+     padding:10px;
+    }
+                section.feedback h6{
+     padding:10px;
+    }
+ section.feedback p {
+     padding:8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    font-family:'Century Gothic';
+}
+
+
+section.feedback .form-lbl-control {
+         font-size: 14px;
+        font-weight:500;
+        color: #222;
+        font-family: 'Century Gothic';
+        padding-left:10px;
+}
+section.feedback .form-control {
+        background:#f2f6f8;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        margin-bottom:10px;
+}
+
+section.feedback .form-lbl-control  label {
+       font-size: 14px;
+        font-weight:500;
+        color: #222;
+        font-family: 'Century Gothic';
+}
+
+section.feedback .btn_submit
+{
+     border: none;
+    float:right;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    height: 30px;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius:4px;
+}
+
+section.feedback .btn_submit:hover {
+       border: none;
+        background: -moz-linear-gradient(top, #808285 0%, #ccc 51%, #808285 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #808285 0%,#ccc 51%,#808285 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #808285 0%,#ccc 51%,#808285 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        height: 30px;
+        cursor: pointer;
+    }
+section.feedback .btnTracker
+{
+     border: none;
+    float:right;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    height: 30px;
+    /*cursor: pointer;*/
+    background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius:4px;
+}
+
+section.feedback .btnTracker:hover {
+       border: none;
+        background: -moz-linear-gradient(top, #808285 0%, #ccc 51%, #808285 100%);  /*FF3.6-15*/ 
+        background: -webkit-linear-gradient(top, #808285 0%,#ccc 51%,#808285 100%);  /*Chrome10-25,Safari5.1-6*/ 
+        background: linear-gradient(to bottom, #808285 0%,#ccc 51%,#808285 100%);  /*W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+*/ 
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        height: 30px;
+        /*cursor: pointer;*/
+    }
+
+section.feedback .btnTracker:disabled {
+       border: none;
+        background: -moz-linear-gradient(top, #808285 0%, #ccc 51%, #808285 100%);  /*FF3.6-15*/ 
+        background: -webkit-linear-gradient(top, #808285 0%,#ccc 51%,#808285 100%);  /*Chrome10-25,Safari5.1-6*/ 
+        background: linear-gradient(to bottom, #808285 0%,#ccc 51%,#808285 100%);  /*W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+*/ 
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        height: 30px;
+        /*cursor: pointer;*/
+    }
+section.feedback .floating-set{
+    float:left;
+}
+
+.floating-set-pdma{
+    float:right;
+}
+
+
+section.feedback .complaints-form-control-disable {
+
+      background:rgba(0, 0, 0, 0.25);
+   
+   color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        width:100%;
+         margin-bottom:10px;
+    }
+
+  section.feedback .complaints-form-control-error {
+
+       background:red;
+   
+   color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        width:100%;
+         margin-bottom:10px;
+
+    }
+
+ section.feedback table {
+ width:90%;
+}
+
+  section.feedback table tr td{
+border:none;
+
+}
+@media(max-width:999px)
+{
+section.feedback .feedback-form td label {
+    font-size: 9px;
+       
+        font-weight: 700;
+}
+}
+
+     
+
+   /*-------------Careers----------------*/
+    section.career{
+
+    }
+
+
+       section.career table tr td h4 {
+     font-size: 16px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #808285;
+    margin:-8px;
+    }
+
+       section.career table tr td h4.heading {
+     font-size: 16px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #808285;
+     margin-top:8px;
+     margin-bottom:8px;
+     margin-left:0px;
+
+    }
+
+        section.career h4{
+     padding:10px;
+    }
+        section.career h6{
+     padding:10px;
+    }
+        section.career p {
+     padding:8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    font-family:'Century Gothic';
+}
+
+  
+section.career .form-lbl-control {
+         font-size: 14px;
+        font-weight:500;
+        color: #222;
+        font-family: 'Century Gothic';
+        padding-left:10px;
+}
+section.career .form-control {
+        background:#f2f6f8;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        margin-bottom:10px;
+}
+section.career .calendar-btn {
+    
+        cursor: pointer;
+        height: 28px;
+
+        margin-bottom:10px;
+}
+section.career .ajax__calendar_container{
+    padding:2px;
+    width:auto;
+    background:#fff;
+    border:1px solid #f26522;
+}
+section.career .ajax__calendar_header{
+    color:#f26522;
+    font-size: 14px;
+        font-weight:500;
+        font-family: 'Century Gothic';
+}
+section.career .ajax__calendar_prev{
+    color:#f26522;
+    font-size: 12px;
+        font-weight:500;
+        font-family: 'Century Gothic';
+        background-image:none;
+}
+section.career .ajax__calendar_prev:before{
+        content:'\25C0';
+
+}
+section.career .ajax__calendar_next{
+    color:#f26522;
+    font-size: 12px;
+        font-weight:500;
+        font-family: 'Century Gothic';
+        background-image:none;
+}
+section.career .ajax__calendar_next:before{
+        content:'\25B6';
+
+}
+section.career .ajax__calendar_body{
+    color:#222;
+    font-size: 12px;
+        font-weight:500;
+        font-family: 'Century Gothic';
+}
+
+  section.career .ajax__calendar_body table tr td{
+border:none;
+padding:1px;
+  color:#222;
+    font-size: 12px;
+        font-weight:500;
+        font-family: 'Century Gothic';
+}
+
+section.career .ajax__calendar_dayname{
+    color:#222;
+    font-size: 12px;
+        font-weight:600;
+        font-family: 'Century Gothic';
+        padding:1px;
+}
+section.career .ajax__calendar_footer{
+    padding:0;
+}
+section.career .ajax__calendar_today{
+    color:#f26522;
+    font-size: 14px;
+        font-weight:500;
+        font-family: 'Century Gothic';
+}
+
+section.career .form-lbl-control  label {
+       font-size: 14px;
+        font-weight:500;
+        color: #222;
+        font-family: 'Century Gothic';
+}
+
+section.career .btn_submit
+{
+     border: none;
+    float:right;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    height: 30px;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius:4px;
+}
+
+section.career .btn_submit:hover {
+          border: none;
+        background: -moz-linear-gradient(top, #808285 0%, #ccc 51%, #808285 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #808285 0%,#ccc 51%,#808285 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #808285 0%,#ccc 51%,#808285 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        height: 30px;
+        cursor: pointer;
+    }
+
+section.career .floating-set{
+    float:left;
+}
+
+
+section.career .complaints-form-control-disable {
+
+      background:rgba(0, 0, 0, 0.25);
+   
+   color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        width:100%;
+         margin-bottom:10px;
+    }
+
+  section.career .complaints-form-control-error {
+
+       background:red;
+   
+   color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        width:100%;
+         margin-bottom:10px;
+
+    }
+
+ section.career table {
+ width:100%;
+}
+
+section.career table tr.tbl_header th{
+       background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    padding:8px;
+
+
+     font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+  section.career table tr td{
+border:none;
+}
+
+    section.ebanking-stat table tr td{
+border:1px solid #f26522;
+}
+
+
+@media(max-width:999px)
+{
+section.career .career-form td label {
+    font-size: 9px;
+       
+        font-weight: 700;
+}
+}
+
+ .alert-success {
+    font-family:'Century Gothic';
+}
+
+  .alert-danger {
+    font-family:'Century Gothic';
+    border-radius:2px;
+}
+
+ .alert-success .close {
+    color: #3c763d;
+     padding-left:2px;
+     padding-right:2px;
+}
+  .alert-danger .close {
+    color: #a94442;
+    padding-left:2px;
+    padding-right:2px;
+}
+
+/*--------------------Branch Google Network------------------------*/
+
+section.bop_branch_google_network h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    text-shadow: 2px 2px 2px #808285;
+
+    
+}
+section.bop_branch_google_network h2 span{
+  border-bottom:3px solid #808285;
+  padding-bottom:5px;
+
+}
+
+
+section.bop_branch_google_network .row{
+    padding-top:10px;
+}
+
+
+section.bop_branch_google_network h3 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #F26522;
+        font-family: 'Century Gothic';
+        margin-top:5px;
+        margin-bottom: 15px;        
+        border-top:1px solid #f26522;
+        padding-top:15px;
+    }
+.bop_find_us .row{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.bop_branch_google_network .box {
+	min-height :200px;
+	background:#FFF;
+    border:1px solid #F26522;
+    margin:10px auto;
+    padding:10px;
+}
+.bop_branch_google_network .bop_find_us {
+    position:relative;       
+    box-shadow: 0 10px 6px -6px #777;
+
+}
+
+.bop_find_us h5
+{
+        font-size: 16px;
+        font-weight:500;
+        color: #F26522;
+        font-family: 'Century Gothic';
+}
+.bop_find_us .form-control
+{
+    background:#f2f6f8;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+   color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+}
+
+.bop_find_us .btn_find_us
+{
+    border: none;
+    float:right;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    height: 30px;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius:4px;
+}
+
+  .bop_find_us .btn_find_us:hover {
+          border: none;
+        background: -moz-linear-gradient(top, #808285 0%, #ccc 51%, #808285 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #808285 0%,#ccc 51%,#808285 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #808285 0%,#ccc 51%,#808285 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        height: 30px;
+        cursor: pointer;
+    }
+
+.bop_find_us h5 span{
+    float:right;
+}
+.bop_find_us .add_scroll {
+    height: 120px;
+    overflow-y: scroll;
+}
+
+ .bop_find_us  ul {
+        margin-bottom: 0px;
+    }
+
+        .bop_find_us ul li {
+            display: block;
+            padding: 0px;
+            font-size: 14px;
+            margin-bottom: 0px;
+            font-family: 'Century Gothic';
+            margin-left: -30px;
+        }
+
+            .bop_find_us a, .bop_find_us ul li span {
+                color: #222;
+                text-decoration: none;
+            }
+
+                .bop_find_us a:hover, .bop_find_us ul li span:hover {
+                    color: #F26522;
+                    text-decoration: none;
+                }
+
+            .bop_find_us ul li.last {
+                margin-bottom: 0px;
+            }
+
+            .bop_find_us ul li:after {
+                display: none;
+            }
+
+
+            .bop_find_us ul li span {
+                float: right;
+            }
+
+    .bop_find_us_table_wrap
+    {
+        padding: 20px;
+        border:1px solid #F26522;
+    }
+
+    .bop_find_us_table_wrap .inner
+    {
+        border:1px solid #F26522;
+        
+    }
+ .bop_find_us_table_wrap .inner .tbl_header {
+       background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+  background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    padding:8px;
+
+
+     font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: 600;
+}
+ .bop_find_us_table_wrap .inner .border_bottom {
+     border-bottom:1px solid #F26522;
+}
+
+  .bop_find_us_table_wrap .inner .center_align {
+      padding:4px;
+
+     font-family: 'Century Gothic';
+    font-size: 11px;
+    font-weight: 500;
+}
+  
+ .bop_find_us_table_wrap .inner .center_align .dot {
+    background-image:url('../images/map/dot.png');
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    text-align:center;
+    padding-top:4px;
+}
+ /*.locator_C{
+     background-image:url('../images/map/map_c_button.png');
+     width:28px;
+     height:40px;
+     background-repeat:no-repeat;
+     border:none;
+     background-color:#fff;
+ }
+ .locator_C:hover {
+
+    background-image:url('../images/map/map_C.png');
+     width:38px;
+     height:55px;
+     background-repeat:no-repeat;
+     border:none;
+      background-color:#fff;
+    }
+  .locator_I{
+     background-image:url('../images/map/map_i_button.png');
+     width:28px;
+     height:40px;
+     background-repeat:no-repeat;
+     border:none;
+     background-color:#fff;
+ }
+ .locator_I:hover {
+
+    background-image:url('../images/map/map_I.png');
+     width:38px;
+     height:55px;
+     background-repeat:no-repeat;
+     border:none;
+      background-color:#fff;
+    }*/
+
+/*--------------------Google Map-----------------------------------*/
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+.modal-content {
+    width:inherit;
+    height:inherit;
+    margin: 0 auto;
+}
+.modal-body {
+    padding:0px;
+}
+
+@media (min-width:320px) and (max-width:767px)
+{
+  .modal-dialog
+    {
+        height: 350px;
+        width: 302px;
+    }
+
+    #map-canvas
+    {
+       margin: 0;
+        padding: 0;
+        height: 350px;
+        width: 300px;
+        border-radius: 5px;
+        position:relative;
+    }
+    .close-position{
+        position:absolute; 
+        z-index:10;
+        top:5px;
+        left:280px;
+        color:#000;
+        opacity:1;
+        font-size:20px;
+        font-weight:600;
+    }
+      .close-position:hover{
+        color:#000;
+        opacity:0.5;
+    }
+     #iw-container .iw-title
+        {
+            font-family:'Century Gothic';
+	font-size: 14px;
+	font-weight: 700;
+	padding: 2px;
+	background-color:#F26522;
+	color: #fff;
+	margin: 0;
+	border-radius: 5px 5px 0 0;
+        }
+
+    .iw-subTitle
+    {
+             font-family:'Century Gothic';
+        font-size: 11px;
+	font-weight: 600;
+    }
+
+    #iw-container .iw-content
+        {
+           font-size: 10px;
+            font-weight: 500;
+            font-family: 'Century Gothic';
+	        margin-right: 1px;
+	        padding: 2px;
+	        max-height: 400px;
+	        overflow:hidden;
+        }
+
+    .iw-content img {
+	float: right;
+    padding: 2px;
+    border: solid 1px #ccc;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+        height:100px;
+        width:60px;
+}
+   
+    #iw-container .detail h4
+    {
+        font-family:'Century Gothic';
+         font-size: 10px;
+        font-weight: 600;
+        padding:0px;
+    }
+   
+    .gm-style-iw
+    {
+       font-family:'Century Gothic';
+       width: 197px !important;
+	top: 12px !important;
+	left: 0px !important;
+	background-color: #fff;
+	box-shadow:#f26522 0px 1px 6px;
+	border-radius:5px;   
+    }
+}
+
+@media (min-width:768px) and (max-width:1279px)
+{
+    .modal-dialog
+    {
+        height: 500px;
+        width: 748px;
+    }
+
+    #map-canvas
+    {
+        margin: 0;
+        padding: 0;
+        height: 498px;
+        width: 746px;
+        border-radius: 5px;
+        position:relative;
+    }
+    .close-position{
+        position:absolute; 
+        z-index:10;
+        top:5px;
+        left:720px;
+        color:#000;
+        opacity:1;
+        font-size:26px;
+        font-weight:700;
+    }
+      .close-position:hover{
+        color:#000;
+        opacity:0.5;
+    }
+   #iw-container {
+        width:400px;
+    }
+
+     #iw-container .iw-title
+        {
+            font-family:'Century Gothic';
+	font-size: 16px;
+	font-weight: 800;
+	padding: 5px;
+	background-color:#F26522;
+	color: #fff;
+	margin: 0;
+	border-radius: 5px 5px 0 0;
+        }
+
+    .iw-subTitle
+    {
+             font-family:'Century Gothic';
+        font-size: 14px;
+	font-weight: 600;
+    }
+
+    #iw-container .iw-content
+        {
+
+           font-size: 12px;
+            font-weight: 400;
+            font-family: 'Century Gothic';
+	margin-right: 1px;
+	padding: 5px;
+	max-height: 300px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+        }
+
+    .iw-content img {
+	float: right;
+	margin: 0 5px 5px 10px;
+    padding: 5px;
+    border: solid 1px #ccc;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+        height:160px;
+        width:120px;
+}
+   
+    #iw-container .detail h4
+    {
+        font-family:'Century Gothic';
+         font-size: 12px;
+        font-weight: 600;
+        padding:0px;
+    }
+   
+    .gm-style-iw
+    {
+       font-family:'Century Gothic';
+       width: 400px !important;
+	top: 15px !important;
+	left: 0px !important;
+	background-color: #fff;
+	box-shadow:#f26522 0px 1px 6px;
+	border-radius:5px;   
+    }
+}
+
+@media (min-width:1280px)
+{
+    .modal-dialog
+    {
+        height: 600px;
+        width: 1100px;
+    }
+
+    
+    .map-canvas,#map-canvas
+    {
+        margin: 0;
+        padding: 0;
+        height: 598px;
+        width: 1098px;
+        border-radius: 5px;
+        position:relative;
+    }
+    .close-position{
+        position:absolute; 
+        z-index:10;
+        top:5px;
+        left:1070px;
+        color:#000;
+        opacity:1;
+        font-size:30px;
+        font-weight:800;
+    }
+     .close-position:hover{
+        color:#000;
+        opacity:0.5;
+    }
+    #iw-container {
+        width:400px;
+    }
+
+     #iw-container .iw-title
+        {
+            font-family:'Century Gothic';
+	font-size: 16px;
+	font-weight: 800;
+	padding: 5px;
+	background-color:#F26522;
+	color: #fff;
+	margin: 0;
+	border-radius: 5px 5px 0 0;
+        }
+
+    .iw-subTitle
+    {
+             font-family:'Century Gothic';
+        font-size: 14px;
+	font-weight: 600;
+    }
+
+    #iw-container .iw-content
+        {
+
+           font-size: 12px;
+            font-weight: 400;
+            font-family: 'Century Gothic';
+	margin-right: 1px;
+	padding: 5px;
+	max-height: 300px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+        }
+
+    .iw-content img {
+	float: right;
+	margin: 0 5px 5px 10px;
+    padding: 5px;
+    border: solid 1px #ccc;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+        height:160px;
+        width:120px;
+}
+   
+    #iw-container .detail h4
+    {
+        font-family:'Century Gothic';
+         font-size: 12px;
+        font-weight: 600;
+        padding:0px;
+    }
+   
+    .gm-style-iw
+    {
+       font-family:'Century Gothic';
+       width: 400px !important;
+	top: 15px !important;
+	left: 0px !important;
+	background-color: #fff;
+	box-shadow:#f26522 0px 1px 6px;
+	border-radius:5px;   
+    }
+}
+
+
+
+
+/*----------------------------------------------------*/
+
+/* FULL POPOVER CSS FOR ALL POPOVERS */
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: auto;
+    padding: 1px;
+    text-align: left;
+    white-space: normal;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+
+.popover-title {
+    margin: 0;
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #f26522;
+    border-radius: 5px 5px 0 0;
+}
+
+.popover-content {
+    font-family: 'Century Gothic';
+    font-size: 12px;
+    font-weight: 500;
+}
+
+    .popover-content p {
+        font-family: 'Century Gothic';
+        font-size: 12px;
+        font-weight: 500;
+        color: #F26522;
+    }
+        .popover-content p span {
+        font-family: 'Century Gothic';
+        font-size: 12px;
+        font-weight: 600;
+        color: #F26522;
+    }
+
+
+  @media(min-width:320px) and (max-width:767px)
+  {
+      .popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: auto;
+    /*padding: 1px;*/
+    text-align: left;
+    white-space: normal;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, .2);
+}
+
+
+.popover-title {
+    margin: 0;
+    font-family: 'Century Gothic';
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #f26522;
+    border-radius: 3px 3px 0 0;
+
+}
+
+.popover-content {
+    font-family: 'Century Gothic';
+    font-size: 11px;
+    font-weight: 500;
+}
+
+    .popover-content p {
+        font-family: 'Century Gothic';
+        font-size: 11px;
+        font-weight: 500;
+        color: #F26522;
+    }
+        .popover-content p span {
+        font-family: 'Century Gothic';
+        font-size: 11px;
+        font-weight: 500;
+        color: #F26522;
+    }
+  }
+
+/*--------------IBAN-----------------------------*/
+
+section.iban{
+
+}
+section.iban .iban-main-header {
+    padding: 8px 14px;
+    margin: 0;
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #fff;
+    background-color: #f26522;
+    border-bottom: 0px solid #ebebeb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+section.iban table{
+    border:1px solid #f26522;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+section.iban .form-lbl-control {
+         font-size: 14px;
+        font-weight:500;
+        color: #222;
+        font-family: 'Century Gothic';
+        padding-left:10px;
+}
+section.iban .form-control {
+        background:#f2f6f8;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor: pointer;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        margin-bottom:10px;
+}
+section.iban .form-control-visibility-none {
+        background:#fff;
+        color: #222;
+        font-size: 14px;
+        border: 1px solid rgba(0, 0, 0, 0);
+        box-shadow: none;
+        font-weight: 400;
+        cursor:none;
+        font-family: 'Century Gothic';
+        height: 28px;
+        padding: 0px 0px;
+        border-radius:4px;
+        margin-bottom:10px;
+        visibility:hidden;
+}
+section.iban .btn_submit
+{
+    border: none;
+    float:right;
+    color: #222;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    height: 30px;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius:4px;
+}
+
+section.iban .btn_submit:hover {
+        border: none;
+        background: -moz-linear-gradient(top, #808285 0%, #ccc 51%, #808285 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #808285 0%,#ccc 51%,#808285 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #808285 0%,#ccc 51%,#808285 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        height: 30px;
+        cursor: pointer;
+    }
+section.iban table tr td{
+     border:none;
+}
+
+
+
+/*---------------------Management-------------------------------*/
+
+    .management .thumbnail {
+        border:1px solid #f26522;
+    padding:10px;
+	background:#FFF;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        height: 300px;
+        text-align: center;
+        margin-bottom:20px;
+    }
+
+    .management input[type="image"] {
+        padding: 5px;
+    border: solid 1px #ccc;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+        display:inline-block;
+    }
+
+    .Product-container h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #808285;
+    
+    
+}
+        .Product-container h4 a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #808285;
+    
+    
+}
+                .Product-container h4 a:hover{
+
+    color: #F26522;
+    
+    
+}
+    .Product-container h7 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #808285;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.management .modal-content {
+    box-shadow:none;
+    border-bottom-left-radius:0;
+      border-bottom-right-radius:0;
+}
+.modal-header-manager {
+
+     text-align:center;
+}
+    .close-position{
+        color:#808285;
+        opacity:1;
+        font-size:24px;
+        font-weight:700;
+    }
+     .close-position:hover{
+        color:#808285;
+        opacity:0.5;
+    }
+
+     @media(min-width:1280px)
+     {
+.management .modal-dialog {
+
+background-color:#fff;
+border-radius:5px;
+}
+}
+          @media(min-width:768px) and (max-width:1279px)
+     {
+.management .modal-dialog {
+
+background-color:#fff;
+border-radius:5px;
+height:500px;
+overflow-y:scroll;
+}
+}
+@media(min-width:320px) and (max-width:767px)
+     {
+.management .modal-dialog {
+
+background-color:#fff;
+border-radius:5px;
+height:400px;
+overflow-y:scroll;
+}
+}
+.management .modal-body {
+
+background-color:#fff;
+
+
+}
+     .profile-txt {
+
+     
+    padding:20px;
+    font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+
+}
+     /*.profile-pic
+     {
+
+         float:right;
+  
+    padding:20px;
+
+     }*/
+
+
+/*------------------Product Pages--------------------------------*/
+.Product-container {
+    min-height: 500px;
+}
+
+@media (max-width: 1279px) {
+  .Product-container {
+    min-height: 400px;
+}
+}
+
+@media (min-width: 1280px) and (max-width: 1359px) {
+   .Product-container {
+    min-height: 420px;
+}
+}
+
+@media (min-width: 1360px) and (max-width: 1439px) {
+     .Product-container {
+    min-height: 450px;
+}
+
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .Product-container {
+    min-height: 400px;
+}
+}
+
+.Main-Product-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    text-shadow: 2px 2px 2px #808285;
+    
+    
+}
+.Main-Product-container h2 span{
+  border-bottom:3px solid #808285;
+  padding-bottom:5px;
+}
+@media(max-width:1000px) {
+.Main-Product-container h2 span{
+  border-bottom:3px solid #808285;
+  padding-bottom:0px;
+}
+}
+
+.Product-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    text-shadow: 2px 2px 2px #808285;
+    
+    
+}
+.Product-container h2 span{
+  border-bottom:3px solid #808285;
+  padding-bottom:5px;
+}
+@media(max-width:1000px) {
+.Product-container h2 span{
+  border-bottom:3px solid #808285;
+  padding-bottom:0px;
+}
+}
+hr.new_style { 
+  border: 0; 
+  height: 3px; 
+  background-color:#f26522;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top:2px;
+}
+
+.Product-container .txt-box {
+    border:1px solid #F26522;
+    padding:10px;
+	background:#FFF;
+	margin:20px auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.Product-container p {
+   
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    font-family:'Century Gothic'
+
+}
+
+
+.Product-container h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #808285;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+.Product-container h5 a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #808285;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #ccc;
+}
+.Product-container h5 a:hover{
+   
+    color: #808285;
+}
+.Product-container ul li h5 a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #808285;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #ccc;
+}
+.Product-container ul li h5 a:hover{
+   
+    color: #808285;
+}
+
+.Product-container ul {
+    padding:10px;
+    margin-left:5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    font-family:'Century Gothic';
+
+}
+
+.Product-container ul li {
+   list-style: none;
+   position:relative;
+   margin-bottom:10px;
+}
+.Product-container ul li:before {
+		 content: "\2023";
+         font-weight:700;
+         font-size:22px;
+         color: #F26522;
+        
+         position:absolute;
+         padding:0 10px 0 0;
+         top:-6px; left:-15px;
+         
+}
+
+.Product-container ul li a{
+   color: #F26522;
+}
+  
+.Product-container ul li p a{
+   color: #222;
+}  
+
+.Product-container .img-box {
+    float:right;
+	width:100%;
+	height:auto;
+	background:#FFF;
+	margin:0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Product-container .effect6
+{
+  	position:relative;       
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.Product-container .effect6:before, .effect6:after
+{
+	content:"111";
+    position:absolute; 
+    z-index:-1;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    border-radius:100px / 10px;
+}
+
+ .Product-container .tbl_header {
+       background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    padding:8px;
+
+
+     font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ .Product-container table tr th {
+   
+    background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    padding:8px;
+
+
+     font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 600;
+    border:1px solid #f26522;
+ }
+  .Product-container table tr td .col-text {
+   
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    font-family:'Century Gothic';
+
+     padding:10px;
+
+     border:1px solid #f26522;
+}
+ .Product-container table tr td {
+   
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    font-family:'Century Gothic';
+
+     padding:20px;
+
+     border:1px solid #f26522;
+}
+
+ .Product-container .ordered-list-indent{
+     padding-left:15px;
+ }
+ .Product-container p a{
+   color: #F26522;
+}
+
+ .Product-container .dot {
+    background-image:url('../images/map/dot.png');
+    background-repeat:no-repeat;
+    height:30px;
+    width:30px;
+    text-align:center;
+    padding-top:4px;
+}
+
+ .Product-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    text-shadow: 2px 2px 2px #808285;
+    
+    
+}
+
+  .Product-container h3 a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #F26522;
+    font-family: 'Century Gothic';
+    text-shadow: 2px 2px 2px #808285;
+    
+    
+}
+
+  .Product-container h3 a:hover{
+
+    color: #F26522;
+    
+    
+}
+ .Product-container h6 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #808285;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #ccc;
+}
+  .Product-container ul li h6 a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #808285;
+    font-family: 'Century Gothic';
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+  .Product-container ul li h6 a:hover {
+
+    color: #808285;
+}
+
+  .Product-container table tr td a{
+   color: #F26522;
+}
+
+  .Product-container .nemu-img-box {
+    float:right;
+	width:35%;
+	height:auto;
+    padding:10px;
+	background:#FFF;
+	margin:0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+  .Product-container .president_pic{
+      margin-left:20px;
+      margin-bottom:20px;
+  }
+
+    .Product-container .profile-img-box {
+    float:right;
+	height:auto;
+    padding:5px;
+	background:#FFF;
+	margin:0px auto;
+}
+  .Product-container ol {
+    padding:10px;
+    margin-left:5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    font-family:'Century Gothic';
+
+}
+
+.Product-container ol li {
+   list-style: none;
+   position:relative;
+   margin-bottom:10px;
+}
+.Product-container ol li:before {
+		
+         font-weight:700;
+         font-size:22px;
+         color: #F26522;
+        
+         position:absolute;
+         padding:0 10px 0 0;
+         top:-6px; left:-15px;
+         
+}
+
+/*************************Content Pages***********************/
+
+
+
+.pg-history-date {
+    padding-top: 20px;
+}
+
+.lbl-control {
+    color: #323235;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: none;
+    margin-bottom: 12px;
+    font-weight: 400;
+    /*padding: 1px 5px;*/
+    line-height: 1.12857143;
+    cursor: pointer;
+    font-family: 'Century Gothic';
+}
+
+
+/*--------------------Banking Products---------------------*/
+.product-container {
+    padding:20px;
+}
+.product-container h1{
+    font-family: 'Century Gothic';
+    font-size:36px;
+    font-weight: 500;
+    color:#fff;
+    
+   margin-top:-110px;
+   margin-left:30px;
+
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.product-container a:hover{
+    text-decoration:none;
+}
+.product-container a:focus{
+    text-decoration:none;
+}
+
+.circle1 {
+    position: relative;
+    float: left;
+    border: 2px dashed #6b0f7c;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    z-index:1;
+}
+.circle1::before {
+    display: block;
+    content: ' ';
+    background-color: #6b0f7c;
+    background-image:url('../images/products/retailbanking.png');
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bar1 {
+    position: relative;
+    float: left;
+    border: none;
+    background-color: white;
+    height:135px;
+    margin-left:-20px;
+}
+.bar1::before {
+    margin-top:35px;
+    margin-bottom:35px;
+    display: block;
+    content: ' ';
+    background-color: #6b0f7c;
+    width: 400px;
+    height: 100px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+.circle2 {
+    position: relative;
+    float: left;
+    border: 2px dashed #2e8c49;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    z-index:1;
+}
+.circle2::before {
+    display: block;
+    content: ' ';
+    background-color: #2e8c49;
+    background-image:url('../images/products/agriculture.png');
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bar2 {
+    position: relative;
+    float: left;
+    border: none;
+    background-color: white;
+     height:135px;
+    margin-left:-20px;
+}
+.bar2::before {
+    margin-top:35px;
+    margin-bottom:35px;
+    display: block;
+    content: ' ';
+    background-color: #2e8c49;
+    width: 400px;
+    height: 100px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+.circle3 {
+    position: relative;
+    float: left;
+    border: 2px dashed #e87719;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    z-index:1;
+}
+.circle3::before {
+    display: block;
+    content: ' ';
+    background-color: #e87719;
+    background-image:url('../images/products/retailfinance.png');
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bar3 {
+    position: relative;
+    float: left;
+    border: none;
+    background-color: white;
+    height:135px;
+    margin-left:-20px;
+}
+.bar3::before {
+    margin-top:35px;
+    margin-bottom:35px;
+    display: block;
+    content: ' ';
+    background-color: #e87719;
+    width: 400px;
+    height: 100px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+.circle4 {
+    position: relative;
+    float: left;
+    border: 2px dashed #01aef0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    z-index:1;
+}
+.circle4::before {
+    display: block;
+    content: ' ';
+    background-color: #01aef0;
+    background-image:url('../images/products/wholesalebanking.png');
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.bar4 {
+    position: relative;
+    float: left;
+    border: none;
+    background-color: white;
+     height:135px;
+    margin-left:-20px;
+}
+.bar4::before {
+    margin-top:35px;
+    margin-bottom:35px;
+    display: block;
+    content: ' ';
+    background-color: #01aef0;
+    width: 400px;
+    height: 100px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+.circle5 {
+    position: relative;
+    float: left;
+    border: 2px dashed #de3716;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+    .circle5::before {
+        display: block;
+        content: ' ';
+        background-color: #de3716;
+        background-image: url('../images/products/sme.png');
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+.bar5 {
+    position: relative;
+    float: left;
+    border: none;
+    background-color: white;
+    height: 135px;
+    margin-left: -20px;
+}
+.bar5::before {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        display: block;
+        content: ' ';
+        background-color: #de3716;
+        width: 400px;
+        height: 100px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+.circle6 {
+    position: relative;
+    float: left;
+    border: 2px dashed #7b7979;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+    .circle6::before {
+        display: block;
+        content: ' ';
+        background-color: #7b7979;
+        background-image: url('../images/products/khaas.png');
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+.bar6 {
+    position: relative;
+    float: left;
+    border: none;
+    background-color: white;
+    height: 135px;
+    margin-left: -20px;
+}
+.bar6::before {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        display: block;
+        content: ' ';
+        background-color: #7b7979;
+        width: 400px;
+        height: 100px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+.circle7 {
+    position: relative;
+    float: left;
+    border: 2px dashed #182917;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+    .circle7::before {
+        display: block;
+        content: ' ';
+        background-color: #182917;
+        background-image: url('../images/products/gid.png');
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+.bar7 {
+    position: relative;
+    float: left;
+    border: none;
+    background-color: white;
+    height: 135px;
+    margin-left: -20px;
+}
+    .bar7::before {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        display: block;
+        content: ' ';
+        background-color: #182917;
+        width: 650px;
+        height: 100px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+.collapsible-panel-body {
+margin-left:180px;
+border:2px solid white;
+margin-top:110px;
+}
+
+.collapsible-panel-body .list-products1 {  
+margin-top:-25px;
+
+border:2px solid #6b0f7c;
+border-bottom-color:#fff;
+border-right-color:#fff;
+width:88%;
+}
+.list-products1 h1 {
+    font-family: 'Century Gothic';
+    font-size:18px;
+    font-weight: 500;
+    color:#fff;
+    background-color:#6b0f7c;
+    padding:5px;
+      border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-left:-45px;
+    margin-bottom:-5px;
+}
+.list-products1 h1 a{
+    font-family: 'Century Gothic';
+    font-size:18px;
+    font-weight: 500;
+    color:#fff;
+  
+}
+.list-products1 ul {
+    border:none;
+}
+.list-products1 ul li{
+    list-style:square;
+    color:#6b0f7c;
+    padding-top:5px;
+}
+.list-retail-products li a{
+     font-family: 'Century Gothic';
+    font-size:14px;
+    font-weight: 500;
+    color:#6b0f7c;
+}
+.list-retail-products {
+    margin-left: -50px;
+}
+
+
+
+.collapsible-panel-body .list-products2 {  
+margin-top:-25px;
+border:2px solid #2e8c49;
+border-bottom-color:#fff;
+border-right-color:#fff;
+width:88%;
+}
+.list-products2 h1 {
+    font-family: 'Century Gothic';
+    font-size:18px;
+    font-weight: 500;
+    color:#fff;
+    background-color:#2e8c49;
+    padding:5px;
+      border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-left:-45px;
+    margin-bottom:-5px;
+}
+.list-products2 h1 a{
+    font-family: 'Century Gothic';
+    font-size:18px;
+    font-weight: 500;
+    color:#fff;
+  
+}
+.list-products2 ul {
+    border:none;
+}
+.list-products2 ul li{
+    list-style:square;
+    color:#2e8c49;
+    padding-top:5px;
+}
+.list-agri-products li a{
+     font-family: 'Century Gothic';
+    font-size:14px;
+    font-weight: 500;
+    color:#2e8c49;
+}
+.list-agri-products{
+    margin-left:-50px;
+}
+
+.collapsible-panel-body .list-products3 {  
+margin-top:-25px;
+border:2px solid #e87719;
+border-bottom-color:#fff;
+border-right-color:#fff;
+width:88%;
+}
+.list-products3 h1 {
+    font-family: 'Century Gothic';
+    font-size:18px;
+    font-weight: 500;
+    color:#fff;
+    background-color:#e87719;
+    padding:5px;
+      border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-left:-45px;
+    margin-bottom:-5px;
+}
+.list-products3 h1 a{
+    font-family: 'Century Gothic';
+    font-size:18px;
+    font-weight: 500;
+    color:#fff;
+  
+}
+.list-products3 ul {
+    border:none;
+}
+.list-products3 ul li{
+    list-style:square;
+    color:#e87719;
+    padding-top:5px;
+}
+.list-finance-products li a{
+     font-family: 'Century Gothic';
+    font-size:14px;
+    font-weight: 500;
+    color:#e87719;
+}
+.list-finance-products{
+    margin-left:-50px;
+}
+
+
+.collapsible-panel-body .list-products5 {
+    margin-top: -25px;
+    border: 2px solid #de3716;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    width: 88%;
+}
+.list-products5 h1 {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #de3716;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -45px;
+    margin-bottom: -5px;
+}
+.list-products5 h1 a {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.list-products5 ul {
+    border: none;
+}
+.list-products5 ul li {
+        list-style: square;
+        color: #de3716;
+        padding-top: 5px;
+    }
+.list-sme-banking-products li a {
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: 500;
+    color: #de3716;
+}
+.list-sme-banking-products {
+    margin-left: -50px;
+}
+
+.collapsible-panel-body .list-products6 {
+    margin-top: -25px;
+    border: 2px solid #7b7979;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    width: 88%;
+}
+.list-products6 h1 {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #7b7979;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -45px;
+    margin-bottom: -5px;
+}
+.list-products6 h1 a {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.list-products6 ul {
+    border: none;
+}
+.list-products6 ul li {
+    list-style: square;
+    color: #7b7979;
+    padding-top: 5px;
+}
+.list-khas-banking-products li a {
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: 500;
+    color: #7b7979;
+}
+.list-khas-banking-products {
+    margin-left: -50px;
+}
+
+.collapsible-panel-body .list-products7 {
+    margin-top: -25px;
+    border: 2px solid #182917;
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    width: 88%;
+}
+.list-products7 h1 {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #182917;
+    padding: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -45px;
+    margin-bottom: -5px;
+}
+.list-products7 h1 a {
+        font-family: 'Century Gothic';
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+    }
+.list-products7 ul {
+    border: none;
+}
+.list-products7 ul li {
+        list-style: square;
+        color: #182917;
+        padding-top: 5px;
+    }
+.list-gid-products li a {
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    font-weight: 500;
+    color: #182917;
+}
+.list-gid-products {
+    margin-left: -50px;
+}
+
+@media (min-width:768px) and (max-width:1000px) {
+
+
+
+.collapsible-panel-body {
+margin-left:170px;
+border:2px solid white;
+margin-top:110px;
+}
+
+.collapsible-panel-body .list-products1 {  
+margin-top:-25px;
+border:2px solid #6b0f7c;
+border-bottom-color:#fff;
+border-right-color:#fff;
+width:70%;
+}
+
+.collapsible-panel-body .list-products2 {  
+margin-top:-25px;
+border:2px solid #2e8c49;
+border-bottom-color:#fff;
+border-right-color:#fff;
+width:70%;
+}
+
+.collapsible-panel-body .list-products3 {  
+margin-top:-25px;
+border:2px solid #e87719;
+border-bottom-color:#fff;
+border-right-color:#fff;
+width:70%;
+}
+
+.collapsible-panel-body .list-products5 {
+        margin-top: -25px;
+        border: 2px solid #de3716;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 70%;
+    }
+
+.collapsible-panel-body .list-products6 {
+        margin-top: -25px;
+        border: 2px solid #7b7979;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 70%;
+    }
+
+    .collapsible-panel-body .list-products7 {
+        margin-top: -25px;
+        border: 2px solid #182917;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 70%;
+    }
+
+}
+@media (min-width:360px) and (max-width:767px) {
+    .product-container {
+        padding: 2px;
+        width: 320px;
+    }
+
+        .product-container h1 {
+            font-family: 'Century Gothic';
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            margin-left: 30px;
+            margin-top: -110px;
+            width: 60px;
+            text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+        }
+
+        .product-container a:hover {
+            text-decoration: none;
+        }
+
+        .product-container a:focus {
+            text-decoration: none;
+        }
+
+    .circle1 {
+        position: relative;
+        float: left;
+        border: 2px dashed #6b0f7c;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle1::before {
+            display: block;
+            content: ' ';
+            background-color: #6b0f7c;
+            background-image: url('../images/products/retailbanking.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar1 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar1::before {
+            display: block;
+            content: ' ';
+            background-color: #6b0f7c;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .circle2 {
+        position: relative;
+        float: left;
+        border: 2px dashed #2e8c49;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle2::before {
+            display: block;
+            content: ' ';
+            background-color: #2e8c49;
+            background-image: url('../images/products/agriculture.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar2 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar2::before {
+            display: block;
+            content: ' ';
+            background-color: #2e8c49;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .circle3 {
+        position: relative;
+        float: left;
+        border: 2px dashed #e87719;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle3::before {
+            display: block;
+            content: ' ';
+            background-color: #e87719;
+            background-image: url('../images/products/retailfinance.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar3 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar3::before {
+            display: block;
+            content: ' ';
+            background-color: #e87719;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .circle4 {
+        position: relative;
+        float: left;
+        border: 2px dashed #01aef0;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle4::before {
+            display: block;
+            content: ' ';
+            background-color: #01aef0;
+            background-image: url('../images/products/wholesalebanking.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar4 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar4::before {
+            display: block;
+            content: ' ';
+            background-color: #01aef0;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .circle5 {
+        position: relative;
+        float: left;
+        border: 2px dashed #de3716;
+        background-color: white;
+        padding: 10px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle5::before {
+            display: block;
+            content: ' ';
+            background-color: #de3716;
+            background-image: url('../images/products/sme.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar5 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar5::before {
+            display: block;
+            content: ' ';
+            background-color: #de3716;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .circle6 {
+        position: relative;
+        float: left;
+        border: 2px dashed #7b7979;
+        background-color: white;
+        padding: 10px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle6::before {
+            display: block;
+            content: ' ';
+            background-color: #7b7979;
+            background-image: url('../images/products/khaas.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar6 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar6::before {
+            display: block;
+            content: ' ';
+            background-color: #7b7979;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+    .circle7 {
+        position: relative;
+        float: left;
+        border: 2px dashed #182917;
+        background-color: white;
+        padding: 10px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle7::before {
+            display: block;
+            content: ' ';
+            background-color: #182917;
+            background-image: url('../images/products/gid.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar7 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar7::before {
+            display: block;
+            content: ' ';
+            background-color: #182917;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .collapsible-panel-body {
+        margin-left: 140px;
+        border: 2px solid white;
+        margin-top: 130px;
+    }
+
+.collapsible-panel-body .list-products1 {
+            margin-top: -25px;
+            border: 1px solid #6b0f7c;
+            border-bottom-color: #fff;
+            border-right-color: #fff;
+            width: 80%;
+        }
+.list-products1 h1 {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #6b0f7c;
+        padding: 1px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+.list-products1 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            font-weight: 500;
+            color: #fff;
+        }
+.list-products1 ul {
+        border: none;
+    }
+.list-products1 ul li {
+            list-style: square;
+            color: #6b0f7c;
+            padding-top: 2px;
+        }
+.list-retail-products li a {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #6b0f7c;
+    }
+.list-retail-products {
+        margin-left: -60px;
+    }
+
+.collapsible-panel-body .list-products2 {
+        margin-top: 130px;
+        border: 1px solid #2e8c49;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 80%;
+    }
+.list-products2 h1 {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #2e8c49;
+        padding: 1px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+.list-products2 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            font-weight: 500;
+            color: #fff;
+        }
+.list-products2 ul {
+        border: none;
+    }
+.list-products2 ul li {
+            list-style: square;
+            color: #2e8c49;
+            padding-top: 2px;
+        }
+.list-agri-products li a {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #2e8c49;
+    }
+.list-agri-products {
+        margin-left: -60px;
+    }
+
+
+.collapsible-panel-body .list-products3 {
+        margin-top: -25px;
+        border: 1px solid #e87719;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 80%;
+    }
+.list-products3 h1 {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #e87719;
+        padding: 2px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+.list-products3 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            font-weight: 500;
+            color: #fff;
+        }
+.list-products3 ul {
+        border: none;
+    }
+.list-products3 ul li {
+            list-style: square;
+            color: #e87719;
+            padding-top: 2px;
+        }
+.list-finance-products li a {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #e87719;
+    }
+.list-finance-products {
+        margin-left: -60px;
+    }
+
+.collapsible-panel-body .list-products5 {
+        margin-top: -25px;
+        border: 2px solid #de3716;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 80%;
+    }
+.list-products5 h1 {
+        font-family: 'Century Gothic';
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #de3716;
+        padding: 5px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+.list-products5 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+        }
+.list-products5 ul {
+        border: none;
+    }
+.list-products5 ul li {
+            list-style: square;
+            color: #de3716;
+            padding-top: 5px;
+        }
+.list-sme-banking-products li a {
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        color: #de3716;
+    }
+.list-sme-banking-products {
+        margin-left: -60px;
+    }
+
+.collapsible-panel-body .list-products6 {
+        margin-top: -25px;
+        border: 2px solid #7b7979;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 80%;
+    }
+.list-products6 h1 {
+        font-family: 'Century Gothic';
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #7b7979;
+        padding: 5px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+.list-products6 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+        }
+.list-products6 ul {
+        border: none;
+    }
+.list-products6 ul li {
+            list-style: square;
+            color: #7b7979;
+            padding-top: 5px;
+        }
+.list-khas-banking-products li a {
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        color: #7b7979;
+    }
+.list-khas-banking-products {
+        margin-left: -60px;
+    }
+
+    .collapsible-panel-body .list-products7 {
+        margin-top: -25px;
+        border: 2px solid #182917;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 80%;
+    }
+    .list-products7 h1 {
+        font-family: 'Century Gothic';
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #182917;
+        padding: 5px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+.list-products7 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+        }
+.list-products7 ul {
+        border: none;
+    }
+    .list-products7 ul li {
+        list-style: square;
+        color: #182917;
+        padding-top: 5px;
+    }
+    .list-gid-products li a {
+        font-family: 'Century Gothic';
+        font-size: 14px;
+        font-weight: 500;
+        color: #182917;
+    }
+.list-gid-products {
+        margin-left: -60px;
+    }
+}
+
+@media (max-width:359px) {
+    .product-container {
+        padding: 2px;
+    }
+
+        .product-container h1 {
+            font-family: 'Century Gothic';
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+            margin-left: 30px;
+            margin-top: -110px;
+            width: 60px;
+            text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+        }
+
+        .product-container a:hover {
+            text-decoration: none;
+        }
+
+        .product-container a:focus {
+            text-decoration: none;
+        }
+
+    .circle1 {
+        position: relative;
+        float: left;
+        border: 2px dashed #6b0f7c;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    .circle1::before {
+            display: block;
+            content: ' ';
+            background-color: #6b0f7c;
+            background-image: url('../images/products/retailbanking.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar1 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar1::before {
+            display: block;
+            content: ' ';
+            background-color: #6b0f7c;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .circle2 {
+        position: relative;
+        float: left;
+        border: 2px dashed #2e8c49;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle2::before {
+            display: block;
+            content: ' ';
+            background-color: #2e8c49;
+            background-image: url('../images/products/agriculture.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar2 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar2::before {
+            display: block;
+            content: ' ';
+            background-color: #2e8c49;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .circle3 {
+        position: relative;
+        float: left;
+        border: 2px dashed #e87719;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle3::before {
+            display: block;
+            content: ' ';
+            background-color: #e87719;
+            background-image: url('../images/products/retailfinance.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar3 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar3::before {
+            display: block;
+            content: ' ';
+            background-color: #e87719;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .circle4 {
+        position: relative;
+        float: left;
+        border: 2px dashed #01aef0;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle4::before {
+            display: block;
+            content: ' ';
+            background-color: #01aef0;
+            background-image: url('../images/products/wholesalebanking.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar4 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar4::before {
+            display: block;
+            content: ' ';
+            background-color: #01aef0;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+    .circle5 {
+        position: relative;
+        float: left;
+        border: 2px dashed #de3716;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle5::before {
+            display: block;
+            content: ' ';
+            background-color: #de3716;
+            background-image: url('../images/products/sme.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar5 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar5::before {
+            display: block;
+            content: ' ';
+            background-color: #de3716;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .circle6 {
+        position: relative;
+        float: left;
+        border: 2px dashed #7b7979;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle6::before {
+            display: block;
+            content: ' ';
+            background-color: #7b7979;
+            background-image: url('../images/products/khaas.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar6 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar6::before {
+            display: block;
+            content: ' ';
+            background-color: #7b7979;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+    .circle7 {
+        position: relative;
+        float: left;
+        border: 2px dashed #182917;
+        background-color: white;
+        padding: 5px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+        .circle7::before {
+            display: block;
+            content: ' ';
+            background-color: #182917;
+            background-image: url('../images/products/gid.png');
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+    .bar7 {
+        position: relative;
+        float: left;
+        border: none;
+        background-color: white;
+        margin-left: -20px;
+    }
+
+        .bar7::before {
+            display: block;
+            content: ' ';
+            background-color: #182917;
+            width: 160px;
+            height: 100px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+        }
+
+    .collapsible-panel-body {
+        margin-left: 140px;
+        border: 2px solid white;
+        margin-top: 130px;
+    }
+
+     .collapsible-panel-body .list-products1 {
+            margin-top: -25px;
+            border: 1px solid #6b0f7c;
+            border-bottom-color: #fff;
+            border-right-color: #fff;
+            width: 70%;
+        }
+
+    .list-products1 h1 {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #6b0f7c;
+        padding: 1px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+
+        .list-products1 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+    .list-products1 ul {
+        border: none;
+    }
+
+        .list-products1 ul li {
+            list-style: square;
+            color: #6b0f7c;
+            padding-top: 2px;
+        }
+
+    .list-retail-products li a {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #6b0f7c;
+    }
+
+    .list-retail-products {
+        margin-left: -60px;
+    }
+
+
+    .collapsible-panel-body .list-products2 {
+        margin-top: 130px;
+        border: 1px solid #2e8c49;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 70%;
+    }
+
+    .list-products2 h1 {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #2e8c49;
+        padding: 1px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+
+        .list-products2 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+    .list-products2 ul {
+        border: none;
+    }
+
+        .list-products2 ul li {
+            list-style: square;
+            color: #2e8c49;
+            padding-top: 2px;
+        }
+
+    .list-agri-products li a {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #2e8c49;
+    }
+
+    .list-agri-products {
+        margin-left: -60px;
+    }
+
+
+
+    .collapsible-panel-body .list-products3 {
+        margin-top: -25px;
+        border: 1px solid #e87719;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 70%;
+    }
+
+    .list-products3 h1 {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #e87719;
+        padding: 2px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+
+        .list-products3 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+    .list-products3 ul {
+        border: none;
+    }
+
+        .list-products3 ul li {
+            list-style: square;
+            color: #e87719;
+            padding-top: 2px;
+        }
+
+    .list-finance-products li a {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #e87719;
+    }
+
+    .list-finance-products {
+        margin-left: -60px;
+    }
+
+
+
+    .collapsible-panel-body .list-products5 {
+        margin-top: -25px;
+        border: 1px solid #6b0f7c;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 70%;
+    }
+
+    .list-products5 h1 {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #6b0f7c;
+        padding: 1px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+
+        .list-products5 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            font-weight: 500;
+            color: #de3716;
+        }
+
+    .list-products5 ul {
+        border: none;
+    }
+
+        .list-products5 ul li {
+            list-style: square;
+            color: #de3716;
+            padding-top: 2px;
+        }
+
+    .list-sme-banking-products li a {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #de3716;
+    }
+
+    .list-sme-banking-products {
+        margin-left: -60px;
+    }
+
+    .collapsible-panel-body .list-products6 {
+        margin-top: -25px;
+        border: 1px solid #6b0f7c;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 70%;
+    }
+
+    .list-products6 h1 {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #6b0f7c;
+        padding: 1px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+
+        .list-products6 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+    .list-products6 ul {
+        border: none;
+    }
+
+        .list-products6 ul li {
+            list-style: square;
+            color: #6b0f7c;
+            padding-top: 2px;
+        }
+
+    .list-khas-banking-products li a {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #6b0f7c;
+    }
+
+    .list-khas-banking-products {
+        margin-left: -60px;
+    }
+    .collapsible-panel-body .list-products7 {
+        margin-top: -25px;
+        border: 1px solid #182917;
+        border-bottom-color: #fff;
+        border-right-color: #fff;
+        width: 70%;
+    }
+
+    .list-products7 h1 {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        background-color: #182917;
+        padding: 1px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-left: -45px;
+        margin-bottom: -5px;
+    }
+
+        .list-products7 h1 a {
+            font-family: 'Century Gothic';
+            font-size: 10px;
+            font-weight: 500;
+            color: #de3716;
+        }
+
+    .list-products7 ul {
+        border: none;
+    }
+
+        .list-products7 ul li {
+            list-style: square;
+            color: #182917;
+            padding-top: 2px;
+        }
+
+    .list-gid-products li a {
+        font-family: 'Century Gothic';
+        font-size: 10px;
+        font-weight: 500;
+        color: #182917;
+    }
+
+    .list-gid-products {
+        margin-left: -60px;
+    }
+}
+/*------------------------Videos--------------------------------------------------*/
+
+.videoWrapper {
+    width: 100%;
+}
+
+/*-----------------E-Banking---------------------------------*/
+
+
+.footer_links .ebanking-disclaimer-text {
+            color: #FFF;
+            display: block;
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            font-weight: 500;
+            padding: 0px 5px;
+            letter-spacing: 0.03em;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+            width:100.8%;
+            height:70px;
+            background-color:#F26522;
+            margin-left:-5px;
+           
+}
+.footer_links .pdma-disclaimer-text{
+         color: #FFF;
+            display: block;
+            font-family: 'Century Gothic';
+            font-size: 14px;
+            font-weight: 500;
+            padding: 0px 5px;
+            letter-spacing: 0.03em;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+    
+}
+
+.ssl-image {
+   float:right;
+   margin-top:-80px;
+}
+@media (min-width:320px) and (max-width:767px){
+   float:right;
+   margin-top:-80px;
+}
+@media (min-width:320px) and (max-width:767px){
+.ssl-image {
+  float:left;
+  padding-top:80px;
+}
+
+
+}
+.home-btn {
+   float:right;
+   padding-top: 50px;
+}
+
+.e-banking-banner {
+    position: relative;
+    left: 6%;
+}
+
+
+header.header nav .logout {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    display: block;
+    position: relative;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    transition: border 500ms ease-out;
+    -webkit-transition: border 500ms ease-out;
+    -moz-transition: border 500ms ease-out;
+    -o-transition: border 500ms ease-out;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 2px 5px;
+}
+
+
+
+    .user-id-flashing-msg img {
+        padding-left: 5%;
+    }
+
+header.header .ebanking-menu {
+    padding-top: 10%;
+}
+
+
+
+
+.loading-img-position {
+    padding-left: 45%;
+}
+
+/*-----------------------------------Careers--------------------------------------*/
+.grid {
+    table-layout: fixed;
+}
+
+
+.col-text {
+    word-wrap: break-word;
+}
+
+@media(max-width:767px){
+    .grid {
+        table-layout:auto;
+    }
+
+      section.career table tr th {
+        width:100px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+}
+        section.career table tr td {
+        width:100px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+
+}
+            
+
+}
+/*-----------------------PDMA-------------------------------*/
+
+
+section.pdma  table tr td{
+      border:none;
+}
+
+section.pdma .bg img{
+      border:1px solid #F26522;
+    padding:10px;
+	background:#FFF;
+	margin:20px auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+section.pdma .login-heading {
+    font-family: Verdana;
+    color: #317551;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+section.pdma .form-lbl-control {
+    font-family: Verdana;
+    color: #317551;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+section.pdma .form-control {
+    border: solid 1px #317551;
+    height: 30px;
+}
+
+section.pdma .btn_8 {
+    position: relative;
+    border: 0px solid #317551;
+    cursor: pointer;
+    padding: 5px;
+    bottom: 9px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Century Gothic';
+    letter-spacing: .1em;
+    color: #317551;
+    height: 30px;
+    background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+    background: linear-gradient(#ccc,#f2f6f8,#ccc);
+}
+
+section.pdma .btn_8:hover {
+        color: #317551;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    }
+
+section.pdma .pdma-form td {
+    padding:0;
+    border:none;
+}
+@media(max-width:999px)
+{
+section.pdma .pdma-form td label {
+    font-size: 9px;
+    font-weight: 700;
+}
+}
+
+
+
+section.pdma table tr.tbl_header td{
+       background: -moz-linear-gradient(top, #F26522 0%, #fedabe 51%, #F26522 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #F26522 0%,#fedabe 51%,#F26522 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #F26522 0%,#fedabe 51%,#F26522 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    padding:8px;
+    border:1px solid #f26522;
+
+     font-family: 'Century Gothic';
+    font-size: 16px;
+    font-weight: 600;
+}
+section.pdma table tr td.col-text{
+
+    border:1px solid #f26522;
+
+}
+
+
+@media (max-width: 767px) {
+    .btn_9 {
+        position: relative;
+        border: 0px solid #317551;
+        cursor: pointer;
+        padding: 0px;
+        bottom: 1px;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #317551;
+        height: 35px;
+        width: 290px;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    }
+
+        .btn_9:hover {
+            color: #F26522;
+            background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        }
+
+        .btn_9:focus {
+            color: #F26522;
+            background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        }
+}
+
+@media (min-width: 768px) {
+    .btn_9 {
+        position: relative;
+        border: 0px solid #317551;
+        cursor: pointer;
+        padding: 10px;
+        bottom: 1px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #317551;
+        height: 35px;
+        width: 350px;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    }
+
+        .btn_9:hover {
+            color: #F26522;
+            background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        }
+
+        .btn_9:focus {
+            color: #F26522;
+            background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+            background: linear-gradient(#ccc,#f2f6f8,#ccc);
+        }
+}
+
+@media (max-width: 767px) {
+    .btn-Active {
+        position: relative;
+        border: 0px solid #317551;
+        cursor: pointer;
+        padding: 0px;
+        bottom: 1px;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #F26522;
+        height: 35px;
+        width: 290px;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-Active {
+        position: relative;
+        border: 0px solid #317551;
+        cursor: pointer;
+        padding: 10px;
+        bottom: 1px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Century Gothic';
+        letter-spacing: .1em;
+        color: #F26522;
+        height: 35px;
+        width: 350px;
+        background: -webkit-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -o-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: -moz-linear-gradient(#ccc,#f2f6f8,#ccc);
+        background: linear-gradient(#ccc,#f2f6f8,#ccc);
+    }
+}
+
+
+.dashboard {
+    min-height: 500px;
+}
+
+
+    .dashboard h6 {
+        font-size: 14px;
+        font-weight: 600;
+        color: #323235;
+        font-family: 'Century Gothic';
+    }
+
+    /*----------------table---------------*/
+    .dashboard .table {
+        margin-bottom: 0px;
+        background: #e6e7e8;
+        padding: 10px;
+    }
+
+    .dashboard .table-striped tr:nth-child(even) > td {
+        background-color: #fedabe;
+        border-top: 1px solid #FFF;
+        font-family: 'Century Gothic';
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    .dashboard .table-striped tr:nth-child(2n+1) > td {
+        background-color: #efab86;
+        border-top: 1px solid #FFF;
+        font-family: 'Century Gothic';
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    .dashboard .table-striped tr:nth-child(1) > td {
+        text-align: center;
+        background-color: #F26522;
+        color: #222;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+/*--------------------------------Breadcrums----------------------------------*/
+#my-breadcrumbs{
+    margin:0;
+    padding:0;
+    margin-top:5px;
+}
+#my-breadcrumbs ul{
+    margin:0;
+    padding:0;
+}
+#my-breadcrumbs ul li {
+ list-style:none; 
+}
+
+#my-breadcrumbs ul li a {
+ display: block;
+ float: left;
+ text-align: center;
+ padding: 5px;
+ position: relative;
+ margin: 0 16px 0 0; 
+ font-family: 'Century Gothic';
+ font-size: 14px;
+ text-decoration: none;
+   background: #595959; /* Old browsers */
+    background: -moz-linear-gradient(top, #595959 0%, #666666 51%, #a6a6a6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #595959 0%,#666666 51%,#a6a6a6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #595959 0%,#666666 51%,#a6a6a6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#a6a6a6',GradientType=0 ); /* IE6-9 */
+    color: #fff;
+}
+
+#my-breadcrumbs ul li a:after {
+content: "";  
+    border-top: 15px solid transparent;
+border-bottom: 15px solid transparent;
+border-left: 15px solid #595959;
+position: absolute; right: -15px; top: 0;
+
+}
+#my-breadcrumbs ul li a:before {
+ content: "";
+  position: absolute;
+
+  margin-top: -10px;   
+  border-width: 10px 0 10px 10px;
+  border-style: solid;
+  border-color: transparent transparent transparent transparent;
+  left: -20px;      
+} 
+#my-breadcrumbs ul li:first-child a:before {
+    display: none; }
+
+#my-breadcrumbs ul li:last-child a {
+    color:#f26522; }
+
+/* Hover Effects */
+#my-breadcrumbs ul li a:hover {
+   color:#f26522;
+}
+
+
+@media (max-width:3000px)
+{ 
+    body,form,p,ul,li,span,div,input,button,iframe,object,table,tr,td
+    {
+        font-family:'Century Gothic';
+    }
+}
+
+.icon {
+    background-image: url('../images/DigiBOP_Whiteorange.png'); 
+    background-repeat: no-repeat;
+    /*top left; */
+    display: inline-block;
+}
+
+.icon-accessibility {
+    background-position: 0 0;
+    width: 60px;
+    height: 32px;
+} 
+
+.peekaboo_btn_style {
+    background-color: #808285;
+    display: block;
+    position: relative;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    transition: border 500ms ease-out;
+    -webkit-transition: border 500ms ease-out;
+    -moz-transition: border 500ms ease-out;
+    -o-transition: border 500ms ease-out;
+    text-decoration: none;
+    /* Multiple box shadows to achieve the glass effect */
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.85), 0 0 7px 0px rgba(0, 0, 0, 0.25), inset 0 0 40px 5px rgba(0, 0, 0, 0.25);
+    /*padding: 11px 0;*/
+    /*border-radius: 5px;*/
+    margin-top: 10px;
+    /*border-bottom-right-radius: 5px;*/
+    /*padding: 5px;*/
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+    .peekaboo_btn_style span {
+        color: #fff;
+        text-align: center;
+        font-family: 'Century Gothic';
+        font-size: 12px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        padding-top: 4%;
+        position: relative;
+        text-align: center;
+        flex-direction: row;
+    }
+    .peekaboo_btn_style:hover {
+                -moz-box-shadow: 0 0 10px #F26522;
+                -webkit-box-shadow: 0 0 10px #F26522;
+                box-shadow: 0 0 10px #F26522;
+                 text-decoration: none;
+                color: #F26522;
+                background: #808285;
+            }
+
+    .Add_Space_peekaboo {
+        padding-right: 6px;
+    }
+.Add_Space_peekaboo-left {
+    padding-left: 6px;
+}
+
+.globe-btn {
+    color: white;
+    font-weight: 500;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: right;
+}
+
+    .globe-btn span{
+        font-family:'Jameel Noori Nastaleeq';
+        font-size:19px;
+    }
+
+    .socialmedia-btn i {
+        color: white;
+        font-weight: 500;
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-top: 15px;
+        /*border:1px solid white;*/
+    }
+
+.row-2-header {
+    margin-bottom: 10px;
+    /*border: 1px solid red;*/
+}
+
+.banner-responsive {
+    max-width: 100%;
+    height: auto;
+}
+header.header nav > ul.bop-menu > li > a.urdu_version {
+    background-color: white;
+    font-family: 'Century Gothic';
+    color: #F26522;
+    font-weight: 600;
+    /*text-shadow: 0 0 3px red;*/
+    padding-bottom: -10px;
+}
+
+.slicknav_menu ul.slicknav_nav > li > a.urdu_version {
+    background-color: white;
+    font-family: 'Century Gothic';
+    color: #F26522;
+    font-weight: 600;
+    /*text-shadow: 0 0 3px red;*/
+    padding-bottom: -10px;
+}
+
+
+/*-----------------urdu-------------------------*/
+.Urdu-Product-container ul {
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    font-family: 'Century Gothic';
+}
+
+    .Urdu-Product-container ul li {
+        list-style: none;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+        .Urdu-Product-container ul li:before {
+            content: "\2023";
+            font-weight: 700;
+            font-size: 22px;
+            color: #F26522;
+            left: 100%;
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
